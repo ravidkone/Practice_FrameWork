@@ -3,13 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.practice.Login.LoginTest">
+      <class name="com.practice.appLauch.Browser">
         <methods>
-          <include name="ScreenShot"/>
-          <include name="TriggerDependency"/>
-          <include name="closeBrowser"/>
+          <include name="lauchBrowser"/>
         </methods>
-      </class> <!-- com.practice.Login.LoginTest -->
+      </class> <!-- com.practice.appLauch.Browser -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
